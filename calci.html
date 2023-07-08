@@ -1,45 +1,15 @@
 <html>
 <head>   
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myscript.js"></script>
 </head>
 <body>
-    <style>
-        body{
-            text-align: center;
-            background-color: aqua;
-        }
-        input{
-            width: 80px;
-            height: 60px;
-            font-size: 46px;
-            margin: 11px;
-            border-radius: 10px;
-
-        }
-        .main-sec{
-            width: max-content;
-            height: max-content;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-left: 80vh;
-            margin-top: 15vh;
-            background-color: azure;
-            border-radius: 40px;
-        }
-        form{
-           
-            width: fit-content;
-            height: fit-content;
-            padding: 30px;
-            border-radius: 20px;
-            
-        }
-    </style>
+    
         <div class="main-sec">
             <h1>Calculator</h1>
         <form action="" name="calci" class="calci" >
-            <input type="text" name="display screen" style="width: 370px; height: 60px;"><br>
+            <input type="text" id="screen" name="display screen" ><br>
             <input class="btn" type="button" value="0" style="font-size: 36px;">
             <input class="btn" type="button" value="1"style="font-size: 36px;">
             <input class="btn" type="button" value="2"style="font-size: 36px;">
